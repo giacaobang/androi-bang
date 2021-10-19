@@ -18,18 +18,14 @@ data class NoteDbModel(
   companion object {
 
     val DEFAULT_NOTES = listOf(
-      NoteDbModel(1, "RW Meeting", "Prepare sample project", false, false, 1, false),
-      NoteDbModel(2, "Bills", "Pay by tomorrow", false, false, 2, false),
-      NoteDbModel(3, "Pancake recipe", "Milk, eggs, salt, flour...", false, false, 3, false),
-      NoteDbModel(4, "Workout", "Running, push ups, pull ups, squats...", false, false, 4, false),
-      NoteDbModel(5, "Title 5", "Content 5", false, false, 5, false),
-      NoteDbModel(6, "Title 6", "Content 6", false, false, 6, false),
-      NoteDbModel(7, "Title 7", "Content 7", false, false, 7, false),
-      NoteDbModel(8, "Title 8", "Content 8", false, false, 8, false),
-      NoteDbModel(9, "Title 9", "Content 9", false, false, 9, false),
-      NoteDbModel(10, "Title 10", "Content 10", false, false, 10, false),
-      NoteDbModel(11, "Title 11", "Content 11", true, false, 11, false),
-      NoteDbModel(12, "Title 12", "Content 12", true, false, 12, false)
+      NoteDbModel(1, "English", "Speaking, Reading, Writing", false, false, 1, false),
+      NoteDbModel(2, "Food", "Milk, eggs, salt, flour...", false, false, 2, false),
+      NoteDbModel(3, "Math", "Math", false, false, 3, false),
+      NoteDbModel(4, "history", "history", false, false, 4, false),
+      NoteDbModel(5, "professional life training", "professional life training", false, false, 5, false),
+      NoteDbModel(6, "development activities", "development activities", false, false, 6, false),
+      NoteDbModel(7, "java", "java", false, false, 7, false),
+      NoteDbModel(8, "Title 8", "Content 8", false, false, 8, false)
     )
   }
 }

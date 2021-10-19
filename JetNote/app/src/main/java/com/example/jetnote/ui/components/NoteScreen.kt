@@ -141,18 +141,14 @@ private fun NoteList(
 private fun NotesListPreview() {
     NoteList(
         notes = listOf(
-            NoteModel(1, "RW Meeting", "Prepare sample project"),
-            NoteModel(2, "Bills", "Pay by tomorrow", false),
-            NoteModel(3, "Pancake recipe", "Milk, eggs, salt, flour..."),
-            NoteModel(4, "Workout", "Running, push ups, pull ups, squats..."),
-            NoteModel(5, "Title 5", "Content 5", false),
-            NoteModel(6, "Title 6", "Content 6", false),
-            NoteModel(7, "Title 7", "Content 7", false),
-            NoteModel(8, "Title 8", "Content 8", false),
-            NoteModel(9, "Title 9", "Content 9"),
-            NoteModel(10, "Title 10", "Content 10", false),
-            NoteModel(11, "Title 11", "Content 11", true),
-            NoteModel(12, "Title 12", "Content 12", true)
+            NoteModel(1, "English", "Speaking, Reading, Writing"),
+            NoteModel(2, "Food", "Milk, eggs, salt, flour..."),
+            NoteModel(3, "Math", "Math"),
+            NoteModel(4, "history", "history", false),
+            NoteModel(5, "professional life training", "professional life training", false),
+            NoteModel(6, "development activities", "development activities", false),
+            NoteModel(7, "java", "java", false),
+            NoteModel(8, "Title 8", "Content 8")
         ),
         onNoteClick = {},
         onNoteCheckedChange = {},
